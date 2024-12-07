@@ -34,14 +34,17 @@ In this project, I focused on creating a user-friendly, responsive contact form 
     ```bash
     npm install
 4. **Configure Database and Settings**
-    Create a file named .env in the project root directory.
-   Add your database credentials and other configuration settings to the .env file. You can find a sample .env file in most Laravel projects for reference.
    
-5. **Run Migrations (Optional)**
+    Create a file named .env in the project root directory.
+   
+    Add your database credentials and other configuration settings to the .env file. You can find a sample .env file in most Laravel projects for reference.
+   
+6. **Run Migrations (Optional)**
+   
     If the project requires database migrations, run the following command:
     ```bash
     php artisan migrate
-6. **Start the Application (Development Server)**
+8. **Start the Application (Development Server)**
     ```bash
     php artisan serve
 This command will start a development server that you can access in your browser, typically at http://localhost:8000 (the port may vary).
