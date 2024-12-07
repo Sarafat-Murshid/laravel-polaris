@@ -26,13 +26,15 @@ In this project, I focused on creating a user-friendly, responsive contact form 
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/yourusername/polaris-contact-form.git](https://github.com/yourusername/polaris-contact-form.git)
-
+   ```
 2. **Install Dependencies**
     ```bash
     composer install
+    ```
 3. **Install Frontend Dependencies**
     ```bash
     npm install
+    ```
 4. **Configure Database and Settings**
    
     Create a file named .env in the project root directory.
@@ -44,10 +46,12 @@ In this project, I focused on creating a user-friendly, responsive contact form 
     If the project requires database migrations, run the following command:
     ```bash
     php artisan migrate
+    ```
 8. **Start the Application (Development Server)**
     ```bash
     php artisan serve
-This command will start a development server that you can access in your browser, typically at http://localhost:8000 (the port may vary).
+    ```
+    This command will start a development server that you can access in your browser, typically at http://localhost:8000 (the port may vary).
 
 ## License
 
